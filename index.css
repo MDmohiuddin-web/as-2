@@ -767,11 +767,12 @@ select {
     }
     .bukingdiv1,
     .bukingdiv2,
-    .buyingdiv3 {
+    .bukingdiv3{
         width: 90%;
         height: 500px;
         padding: 0;
     }
+  
 
     .detels{
         height: 280px;

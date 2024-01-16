@@ -239,6 +239,13 @@ background: url('Images/1\ \(5\).png');
 background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sceonddivimg1 h2{
+    color: white;
+    text-align: center;
 }
 .sceonddivimg1 video{
     width: 100%;
@@ -304,6 +311,7 @@ border: 1px solid #FF5400;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+   
 }
 /* <!-- sceonddiv is over --> */
 .onlytext{
@@ -467,8 +475,8 @@ h4{
 }
 .div1
 {
-    padding: 20px;
-    border-radius: 16px;
+padding: 20px;
+border-radius: 16px;
 border: 1px solid rgba(233, 68, 68, 0.20);
 background: rgba(233, 68, 68, 0.05);
     
@@ -503,6 +511,24 @@ background: rgba(41, 206, 246, 0.05);
         
         
 }
+.Travel{
+    position: relative;
+    top: 66%;
+    left: 45%;
+   
+    text-align: center;
+    color: #FFF;
+    border-radius: 16px;
+background: #FF5400;
+width: 324px;
+height: 120px;
+transform: rotate(-19.628deg);
+}
+.Travel h2{
+padding-top: 25px;
+text-align: center;
+}
+
 .pe{
     color: #5A5A5D;
    height: 40px;
@@ -824,5 +850,18 @@ select {
     .pe{
         padding: 0;
         margin: 0;
+    }
+    .Travel{
+        position: relative;
+        top:170px;
+        left:90px;
+        width: 70%;
+        height: 30%;
+       
+       
+       
+    }
+    .Travel h2{
+        padding: 5px;
     }
 }

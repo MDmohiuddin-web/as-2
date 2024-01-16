@@ -609,7 +609,144 @@ hr{
 
 
 
-@media screen  and (max-width:576){
+
+@media screen and (max-width: 600px) {
+
+.nav{
+    width: 90%;
+    flex-direction: column;
+    /* background-color: #FF5400; */
     
+}
+.nav ul li{
+    display: none;
+    
+}
+.plean{
+    max-width: 80px;
+    max-height: 50px;
+    position: absolute;
+    left: 50px;
+    padding-top: 20px;
+}
+.nav h2{
+    padding-right: 70px;
+    padding-top: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.sceonddiv{
+    padding: 0;
+
+}
+.fristdiv{
+    flex-direction: column;
+    width: 90%;
+    height: 500px;
+    padding: 10px;
+
+} .fristdiv h1{
+    font-size: 35px;
+    padding: 10px;
+}
+.fristdiv p{
+    padding: 0;
+    
+}
+.fristdivtext{
+   
+    margin: 0;
+}
+.search-bar{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    margin-top: 40px;
+        
+    
+}
+
+option,
+
+.fristdivtext{
+    width: 100%;
+}
+
+.input{
+    flex-direction: column;
+    width: 90%;
+}
+select {
+    width: 90%;
+    height: 40px;
+    
+
+
+  }
+  .but{
+    width: 90%;
+  }
+
+  .sceonddiv{
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+    margin: auto;
+    padding: 0;
+  }
+  .sceonddivtext{
+    width: 90%;
+    height: auto;
+    margin: 0;
+    text-align: left;
+   
+  }
+  .sceonddivimg{
+    width: 80%;
+    height: 250px;
+    background-color: #FF5400;
+  }
+  .sceonddivtext button{
+    width: 50%;
+    margin-top: 60px;
+
+  }
+  .div1,
+    .div2,
+    .div3,
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6,
+    .img7{
+        flex-direction: column;
+        width: 95%;
+        height: 200px;
+        }   
+
+    .onlytext{
+       
+        width: 90%;
+        text-align: center;
+        
+    }
+   
     
 }

@@ -11,6 +11,20 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
+
+}
+.sidebare{
+    height: 50px;
+    width: 50px ;
+    
+    position: relative;
+    right: 50px;
+    top: 20px;
+    display: none;
+}
+.sidebare i{
+    font-size:30px;
+    display: none;
 }
 .plean{
     max-width: 80px;
@@ -591,6 +605,7 @@ h5
     padding: 10px;
     
 }
+
 hr{
     background: rgba(19, 19, 24, 0.10);
     width: 90%;
@@ -603,14 +618,14 @@ hr{
     align-items: center;
     width: 100%;
  border-top:1px solid black ;
-    height: 150px;
+    height: 80px;
 
 }
 
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
 
 .nav{
     width: 90%;
@@ -726,6 +741,9 @@ select {
     margin-top: 60px;
 
   }
+  .onlydivimg{
+    padding: 0;
+  }
   .div1,
     .div2,
     .div3,
@@ -747,6 +765,63 @@ select {
         text-align: center;
         
     }
-   
+    .bukingdiv1,
+    .bukingdiv2,
+    .buyingdiv3 {
+        width: 90%;
+        height: 500px;
+        padding: 0;
+    }
+
+    .detels{
+        height: 280px;
+        width:400px;
+        padding: 20px;
+        /* display: flex; */
+        margin-top: 160px;
+       
+
+        
+        
     
+    }
+    .detels h5{
+        padding: 5px 0;
+    }
+    .detels ul{
+        padding: 0;
+        display: inline;
+        text-align: left;
+        
+    }
+   
+   h6 {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+    h5
+    
+    {
+        padding:  0;
+        font-size: 20px;
+        font-weight: 800;
+        color: #131318;
+        margin-top: 80px;
+    }
+   
+   
+    .sceonddivtext3{
+        width: 90%;
+        margin-top: 20px;
+
+    }
+    .sceonddivimg1,
+    .sceonddivimg3{
+        width: 90%;
+        height: 300px;
+    }
+    .pe{
+        padding: 0;
+        margin: 0;
+    }
 }
